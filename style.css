@@ -1,0 +1,53 @@
+body {
+	background-color: #000000fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top-nav {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+}
+.header {
+    transition: all .5s;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px green;
+    background-color: rgba(255, 140, 0, 0.475);
+    width: 80%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+.feat-head{
+    background-color: rgba(255, 255, 255, 0.785);
+    width: 80%;
+}
+.feat-head-text{
+    font-size: large;
+}
+.feat-head-text p {
+    width: auto;
+    margin: 5px;
+}
+
+.top-material{
+    width: 85%;
+    background-color: rgba(255, 255, 255, 0.785);
+    display: flex;
+    justify-content: space-around;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.featured-user-area{
+    background-color: rgba(227, 174, 108, 0.731);
+    width: 45%;
+
+}
+.featured-oil-area{
+    background-color: rgba(227, 174, 108, 0.731);
+    width: 45%;
+
+}
